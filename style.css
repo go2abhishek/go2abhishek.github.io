@@ -1,0 +1,50 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .banner {
+            background-image: url('banner.jpg');
+            background-size: cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner h1 {
+            color: #fff;
+            font-size: 36px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .feature {
+            width: 30%;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .feature img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
